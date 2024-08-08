@@ -12,6 +12,6 @@ struct VisionOSStarterProjectApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-        }
+        }.windowStyle(.volumetric)
     }
 }
