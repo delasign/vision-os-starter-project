@@ -25,5 +25,6 @@ Same as the above and select replace from the dropdown.
 ## 101
 
 ### Setup
-1. <a href="https://delasign.com/blog/how-to-create-a-visionpro-project-with-a-window/?utm=swift-starter-project">How to create a VisionPro project with a Window 🔗</a>
+1. <a href="https://delasign.com/blog/how-to-create-a-visionpro-project-with-a-window/?utm=visionOS-starter-project">How to create a VisionPro project with a Window 🔗</a>
+2. <a href="https://delasign.com/blog/how-to-create-a-visionpro-project-with-a-volume/?utm=visionOS-starter-project">How to create a VisionPro project with a Volume 🔗</a>
 
