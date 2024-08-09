@@ -12,6 +12,7 @@
 		F0A856472C651F08002AF000 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A856462C651F08002AF000 /* ContentView.swift */; };
 		F0A856492C651F09002AF000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A856482C651F09002AF000 /* Assets.xcassets */; };
 		F0A8564C2C651F09002AF000 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A8564B2C651F09002AF000 /* Preview Assets.xcassets */; };
+		F0AF62382C66ACC2005F2661 /* SampleImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AF62372C66ACC2005F2661 /* SampleImmersiveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F0A856482C651F09002AF000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0A8564B2C651F09002AF000 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F0A8564D2C651F09002AF000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0AF62372C66ACC2005F2661 /* SampleImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleImmersiveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				F0A856442C651F08002AF000 /* VisionOSStarterProjectApp.swift */,
 				F0A856462C651F08002AF000 /* ContentView.swift */,
+				F0AF62372C66ACC2005F2661 /* SampleImmersiveView.swift */,
 				F0A856482C651F09002AF000 /* Assets.xcassets */,
 				F0A8564D2C651F09002AF000 /* Info.plist */,
 				F0A8564A2C651F09002AF000 /* Preview Content */,
@@ -156,6 +159,7 @@
 			files = (
 				F0A856472C651F08002AF000 /* ContentView.swift in Sources */,
 				F0A856452C651F08002AF000 /* VisionOSStarterProjectApp.swift in Sources */,
+				F0AF62382C66ACC2005F2661 /* SampleImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
