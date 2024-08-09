@@ -15,6 +15,7 @@
 		F0E5615D2C653DE5001285FF /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E5615C2C653DE5001285FF /* SampleView.swift */; };
 		F0E561602C653EAF001285FF /* AppEntityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E5615F2C653EAF001285FF /* AppEntityIdentifiers.swift */; };
 		F0E561622C6542A7001285FF /* SampleVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E561612C6542A7001285FF /* SampleVolume.swift */; };
+		F0E561662C669D6F001285FF /* OpenAndCloseWindowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E561652C669D6F001285FF /* OpenAndCloseWindowButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F0E5615C2C653DE5001285FF /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
 		F0E5615F2C653EAF001285FF /* AppEntityIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntityIdentifiers.swift; sourceTree = "<group>"; };
 		F0E561612C6542A7001285FF /* SampleVolume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleVolume.swift; sourceTree = "<group>"; };
+		F0E561652C669D6F001285FF /* OpenAndCloseWindowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAndCloseWindowButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				F0A856462C651F08002AF000 /* ContentView.swift */,
 				F0E5615C2C653DE5001285FF /* SampleView.swift */,
 				F0E561612C6542A7001285FF /* SampleVolume.swift */,
+				F0E561652C669D6F001285FF /* OpenAndCloseWindowButton.swift */,
 				F0A856482C651F09002AF000 /* Assets.xcassets */,
 				F0A8564D2C651F09002AF000 /* Info.plist */,
 				F0A8564A2C651F09002AF000 /* Preview Content */,
@@ -175,6 +178,7 @@
 				F0A856472C651F08002AF000 /* ContentView.swift in Sources */,
 				F0E561622C6542A7001285FF /* SampleVolume.swift in Sources */,
 				F0E5615D2C653DE5001285FF /* SampleView.swift in Sources */,
+				F0E561662C669D6F001285FF /* OpenAndCloseWindowButton.swift in Sources */,
 				F0A856452C651F08002AF000 /* VisionOSStarterProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

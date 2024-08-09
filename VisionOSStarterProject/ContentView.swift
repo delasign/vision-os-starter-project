@@ -20,15 +20,9 @@ struct ContentView: View {
                 .padding(.bottom, 50)
 
             Text("Window Tutorial")
-            Button("Open A Window One") {
-                openWindow(id: AppEntityIdentifiers.windowOne)
-            }
-            Button("Open A Window Two") {
-                openWindow(id: AppEntityIdentifiers.windowTwo)
-            }
-            Button("Open A Volume") {
-                openWindow(id: AppEntityIdentifiers.volumeOne)
-            }
+            OpenAndCloseWindowButton(windowName: "Window One", windowId: AppEntityIdentifiers.windowOne)
+            OpenAndCloseWindowButton(windowName: "Window Two", windowId: AppEntityIdentifiers.windowTwo)
+            OpenAndCloseWindowButton(windowName: "Volume", windowId: AppEntityIdentifiers.volumeOne)
         }
         .padding()
     }
