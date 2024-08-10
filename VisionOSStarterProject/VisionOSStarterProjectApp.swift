@@ -11,7 +11,9 @@ import SwiftUI
 struct VisionOSStarterProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().ornament(attachmentAnchor: .scene(.bottom)) {
+                SampleOrnament()
+            }
         }
     }
 }
