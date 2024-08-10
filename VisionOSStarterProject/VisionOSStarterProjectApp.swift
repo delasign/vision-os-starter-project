@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct VisionOSStarterProjectApp: App {
+    
+    @State private var model = AppModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environment(model)
+        }
+        
+        WindowGroup(id: AppEntityIdentifiers.countWindow) {
+            CountView().environment(model)
         }
     }
 }
