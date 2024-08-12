@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F0A856432C651F08002AF000 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = F0A856422C651F08002AF000 /* RealityKitContent */; };
 		F0A856452C651F08002AF000 /* VisionOSStarterProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A856442C651F08002AF000 /* VisionOSStarterProjectApp.swift */; };
-		F0A856472C651F08002AF000 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A856462C651F08002AF000 /* ContentView.swift */; };
 		F0A856492C651F09002AF000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A856482C651F09002AF000 /* Assets.xcassets */; };
 		F0A8564C2C651F09002AF000 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A8564B2C651F09002AF000 /* Preview Assets.xcassets */; };
 		F0AF62382C66ACC2005F2661 /* SampleImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AF62372C66ACC2005F2661 /* SampleImmersiveView.swift */; };
@@ -19,7 +18,6 @@
 		F0A8563D2C651F08002AF000 /* VisionOSStarterProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionOSStarterProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0A856412C651F08002AF000 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		F0A856442C651F08002AF000 /* VisionOSStarterProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOSStarterProjectApp.swift; sourceTree = "<group>"; };
-		F0A856462C651F08002AF000 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F0A856482C651F09002AF000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0A8564B2C651F09002AF000 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F0A8564D2C651F09002AF000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				F0A856442C651F08002AF000 /* VisionOSStarterProjectApp.swift */,
-				F0A856462C651F08002AF000 /* ContentView.swift */,
 				F0AF62372C66ACC2005F2661 /* SampleImmersiveView.swift */,
 				F0A856482C651F09002AF000 /* Assets.xcassets */,
 				F0A8564D2C651F09002AF000 /* Info.plist */,
@@ -157,7 +154,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0A856472C651F08002AF000 /* ContentView.swift in Sources */,
 				F0A856452C651F08002AF000 /* VisionOSStarterProjectApp.swift in Sources */,
 				F0AF62382C66ACC2005F2661 /* SampleImmersiveView.swift in Sources */,
 			);

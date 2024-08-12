@@ -14,10 +14,9 @@ struct SampleImmersiveView: View {
         VStack {
             Model3D(named: "Scene", bundle: realityKitContentBundle)
         }
-        .padding()
     }
 }
 
-#Preview(windowStyle: .automatic) {
+#Preview(windowStyle: .volumetric) {
     SampleImmersiveView()
 }

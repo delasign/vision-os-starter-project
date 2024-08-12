@@ -9,15 +9,11 @@ import SwiftUI
 
 @main
 struct VisionOSStarterProjectApp: App {
-    @State private var currentStyle: ImmersionStyle = .full
+    @State private var currentStyle: ImmersionStyle = .mixed
 
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-        // Display a fully immersive space.
         ImmersiveSpace(id: "SampleImmersiveSpaceId") {
             SampleImmersiveView()
-        }.immersionStyle(selection: $currentStyle, in: .full)
+        }.immersionStyle(selection: $currentStyle, in: .mixed)
     }
 }
