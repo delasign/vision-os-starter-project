@@ -9,7 +9,6 @@ import SwiftUI
 import RealityKit
 import RealityKitContent
 
-@MainActor
 struct SampleImmersiveView: View {
     var body: some View {
         VStack {
@@ -19,6 +18,7 @@ struct SampleImmersiveView: View {
                     scene.position = SIMD3<Float>(0, 1, -1)
                     // Set its Scale
                     scene.scale = SIMD3<Float>(2,2,2)
+                    scene.transform.rotation = simd_quatf(angle: .pi, axis: SIMD3<Float>(0,1,1))
                     content.add(scene)
                     
                     // Determine the transform to animate to.
