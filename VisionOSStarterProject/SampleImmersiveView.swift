@@ -23,20 +23,19 @@ struct SampleImmersiveView: View {
                     
                     // Determine the transform to animate to.
                     var transform = scene.transform
-                    let yAxis = SIMD3<Float>(0, 1, 0) // Y-axis
-                    let rotationAmount = simd_quatf(angle: .pi, axis: yAxis)
-                    transform.rotation *= rotationAmount
+                    transform.translation = SIMD3<Float>(0,0,-1)
+                    transform.scale = SIMD3<Float>(0.5,0.5,0.5)
                     
                     // Create the rotate on its y axis animation
-                    let rotateOnItsYAxisAnimation = FromToByAnimation(from: scene.transform,
+                    let animateScaleAndTranslationBackAndForth = FromToByAnimation(from: scene.transform,
                                                                       to:transform,
                                                                         duration: 2,
                                                                         timing: .linear,
                                                                     bindTarget: .transform,
-                                                                      repeatMode: .repeat)
+                                                                      repeatMode: .autoReverse)
                     
                     // Set the Animation
-                    if let animation = try? AnimationResource.generate(with: rotateOnItsYAxisAnimation) {
+                    if let animation = try? AnimationResource.generate(with: animateScaleAndTranslationBackAndForth) {
                         scene.playAnimation(animation)
                     }
                 }
