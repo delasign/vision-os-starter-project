@@ -107,6 +107,8 @@ You may be interested in our other open source projects.
 1. <a href="https://www.delasign.com/blog/how-to-programmatically-add-a-model-in-realitykit/?utm=swiftui-starter-project">How to programmatically add a model in RealityKit     🔗</a>
 2. <a href="https://www.delasign.com/blog/how-to-set-the-position-scale-or-rotation-of-a-model-in-realitykit/?utm=swiftui-starter-project">How to set the position, scale or rotation of a model in RealityKit 🔗</a>
 3. <a href="https://www.delasign.com/blog/how-to-animate-a-models-rotation-across-its-axis-in-realitykit/?utm=swiftui-starter-project">How to animate a models rotation across its axis in RealityKit 🔗</a>
+4. <a href="https://www.delasign.com/blog/how-to-animate-a-models-position-and-scale-in-realitykit/?utm=swiftui-starter-project">How to animate a models position and scale in RealityKit 🔗</a>
+
 
 ## Previews
 1. <a href="https://www.delasign.com/blog/how-to-create-localizable-swiftui-previews/?utm=swiftui-starter-project">How to create localizable SwiftUI Previews 🔗</a>
