@@ -12,6 +12,7 @@
 		F0A856492C651F09002AF000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A856482C651F09002AF000 /* Assets.xcassets */; };
 		F0A8564C2C651F09002AF000 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A8564B2C651F09002AF000 /* Preview Assets.xcassets */; };
 		F0AF62382C66ACC2005F2661 /* SampleImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AF62372C66ACC2005F2661 /* SampleImmersiveView.swift */; };
+		F0CAC5B42C7B8AB800A65C71 /* WorldTrackingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC5B32C7B8AB800A65C71 /* WorldTrackingCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F0A8564B2C651F09002AF000 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F0A8564D2C651F09002AF000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0AF62372C66ACC2005F2661 /* SampleImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleImmersiveView.swift; sourceTree = "<group>"; };
+		F0CAC5B32C7B8AB800A65C71 /* WorldTrackingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrackingCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		F0A8563F2C651F08002AF000 /* VisionOSStarterProject */ = {
 			isa = PBXGroup;
 			children = (
+				F0CAC5B12C7B8AA300A65C71 /* Coordinators */,
 				F0A856442C651F08002AF000 /* VisionOSStarterProjectApp.swift */,
 				F0AF62372C66ACC2005F2661 /* SampleImmersiveView.swift */,
 				F0A856482C651F09002AF000 /* Assets.xcassets */,
@@ -79,6 +82,22 @@
 				F0A8564B2C651F09002AF000 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0CAC5B12C7B8AA300A65C71 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				F0CAC5B22C7B8AAB00A65C71 /* WorldTrackingCoordinator */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		F0CAC5B22C7B8AAB00A65C71 /* WorldTrackingCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F0CAC5B32C7B8AB800A65C71 /* WorldTrackingCoordinator.swift */,
+			);
+			path = WorldTrackingCoordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0A856452C651F08002AF000 /* VisionOSStarterProjectApp.swift in Sources */,
+				F0CAC5B42C7B8AB800A65C71 /* WorldTrackingCoordinator.swift in Sources */,
 				F0AF62382C66ACC2005F2661 /* SampleImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

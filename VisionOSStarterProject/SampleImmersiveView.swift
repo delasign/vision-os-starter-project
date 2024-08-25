@@ -10,6 +10,7 @@ import RealityKit
 import RealityKitContent
 
 struct SampleImmersiveView: View {
+    
     var body: some View {
         VStack {
             Model3D(named: "Scene", bundle: realityKitContentBundle)
