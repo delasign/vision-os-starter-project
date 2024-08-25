@@ -8,10 +8,14 @@
 import SwiftUI
 
 @main
-struct VisionOSStarterProjectApp: App {
+struct VisionApp: App {
+    @State private var languageCoordinator = LanguageCoordinator()
+    let styleguide = Styleguide()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(languageCoordinator)
         }
     }
 }
