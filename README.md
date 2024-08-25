@@ -110,6 +110,13 @@ You may be interested in our other open source projects.
 4. <a href="https://www.delasign.com/blog/how-to-animate-a-models-position-and-scale-in-realitykit/?utm=swiftui-starter-project">How to animate a models position and scale in RealityKit 🔗</a>
 
 
+## Reality Composer Pro / Reality Converter
+
+1. <a href="https://www.delasign.com/blog/how-to-open-reality-composer-pro/?utm=swiftui-starter-project">How to open Reality Composer Pro 🔗</a>
+2. <a href="https://www.delasign.com/blog/how-to-export-a-reality-composer-pro-project-for-ar-quick-look/?utm=swiftui-starter-project">How to export a Reality Composer Pro project for AR Quick Look 🔗</a>
+3. <a href="https://www.delasign.com/blog/how-to-convert-an-animated-fbx-into-a-usdz/?utm=swiftui-starter-project">How to convert an animated FBX into a USDZ 🔗</a>
+
+
 ## Previews
 1. <a href="https://www.delasign.com/blog/how-to-create-localizable-swiftui-previews/?utm=swiftui-starter-project">How to create localizable SwiftUI Previews 🔗</a>
 2. <a href="https://www.delasign.com/blog/how-to-create-multiple-swiftui-previews-within-a-single-view/?utm=swiftui-starter-project">How to create multiple SwiftUI previews within a single view 🔗</a>
