@@ -115,6 +115,7 @@
 		F0CAC5B52C7B92E400A65C71 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				F0CAC5EC2C7C007100A65C71 /* Volumes */,
 				F0CAC5BB2C7B931600A65C71 /* Spaces */,
 				F0CAC5BA2C7B930F00A65C71 /* Windows */,
 				F0CAC5B92C7B930A00A65C71 /* Components */,
@@ -232,6 +233,13 @@
 				F0CAC5DA2C7B94E500A65C71 /* es.json */,
 			);
 			path = Strings;
+			sourceTree = "<group>";
+		};
+		F0CAC5EC2C7C007100A65C71 /* Volumes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Volumes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
