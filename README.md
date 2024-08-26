@@ -113,8 +113,13 @@ You may be interested in our other open source projects.
 ## Reality Composer Pro / Reality Converter
 
 1. <a href="https://www.delasign.com/blog/how-to-open-reality-composer-pro/?utm=swiftui-starter-project">How to open Reality Composer Pro 🔗</a>
-2. <a href="https://www.delasign.com/blog/how-to-export-a-reality-composer-pro-project-for-ar-quick-look/?utm=swiftui-starter-project">How to export a Reality Composer Pro project for AR Quick Look 🔗</a>
-3. <a href="https://www.delasign.com/blog/how-to-convert-an-animated-fbx-into-a-usdz/?utm=swiftui-starter-project">How to convert an animated FBX into a USDZ 🔗</a>
+2. <a href="https://www.delasign.com/blog/how-to-create-a-new-reality-composer-pro-project/?utm=swiftui-starter-project">How to create a new Reality Composer Pro project 🔗</a>
+3. <a href="https://www.delasign.com/blog/how-to-create-a-new-realitykitcontent-package-for-a-visionos-project/?utm=swiftui-starter-project">How to create a new RealityKitContent package for a VisionOS project 🔗</a>
+4. <a href="https://www.delasign.com/blog/how-to-export-a-reality-composer-pro-project-for-ar-quick-look/?utm=swiftui-starter-project">How to export a Reality Composer Pro project for AR Quick Look 🔗</a>
+
+## Reality Converter
+
+1. <a href="https://www.delasign.com/blog/how-to-convert-an-animated-fbx-into-a-usdz/?utm=swiftui-starter-project">How to convert an animated FBX into a USDZ 🔗</a>
 
 
 ## Previews
