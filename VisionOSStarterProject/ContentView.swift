@@ -11,13 +11,11 @@ import RealityKitContent
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Model3D(named: "Fire", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
-
-            Text("Hello, world!")
+        RealityView { content in
+            if let fire = try? await Entity(named: "Fire", in: realityKitContentBundle) {
+                content.add(fire)
+            }
         }
-        .padding()
     }
 }
 
