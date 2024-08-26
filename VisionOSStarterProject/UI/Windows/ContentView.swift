@@ -8,13 +8,14 @@
 import SwiftUI
 import RealityKit
 import RealityKitContent
+import ANewPackage
 
 struct ContentView: View {
     @Environment (LanguageCoordinator.self) var languageCoordinator
     
     var body: some View {
         VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
+            Model3D(named: "Scene", bundle: aNewPackageBundle)
                 .padding(.bottom, 50)
 
             Styleguide.Title(languageCoordinator.currentContent.sample.sampleString)
@@ -23,6 +24,7 @@ struct ContentView: View {
         .padding()
     }
 }
+
 
 #Preview(windowStyle: .automatic) {
     ContentView()
@@ -36,4 +38,25 @@ struct ContentView: View {
         .environment(\.locale, .init(identifier: "es"))
 }
 
+// Last Attempt at using Preview Provider
+
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        Group {
+//            ForEach(LanguageCoordinator().availableLanguages.values.sorted(by: { "\($0)" < "\($1)" }), id: \.self) { language in
+//                LocalizableContentView(languageCode: language)
+//            }
+//            
+//        }
+//    }
+//    
+//    struct LocalizableContentView: View {
+//        let languageCode: String
+//        
+//        var body: some View {ContentView()
+//                .environment(LanguageCoordinator(languageCode: languageCode))
+//                .environment(\.locale, .init(identifier: languageCode))
+//        }
+//    }
+//}
 

@@ -26,6 +26,7 @@
 		F0CAC5DC2C7B94E500A65C71 /* es.json in Resources */ = {isa = PBXBuildFile; fileRef = F0CAC5DA2C7B94E500A65C71 /* es.json */; };
 		F0CAC5DD2C7B94E500A65C71 /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = F0CAC5DB2C7B94E500A65C71 /* en.json */; };
 		F0CAC5E02C7B951900A65C71 /* StringJSON in Frameworks */ = {isa = PBXBuildFile; productRef = F0CAC5DF2C7B951900A65C71 /* StringJSON */; };
+		F0CAC5EB2C7BFDC500A65C71 /* ANewPackage in Frameworks */ = {isa = PBXBuildFile; productRef = F0CAC5EA2C7BFDC500A65C71 /* ANewPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		F0CAC5D72C7B94DF00A65C71 /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		F0CAC5DA2C7B94E500A65C71 /* es.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = es.json; sourceTree = "<group>"; };
 		F0CAC5DB2C7B94E500A65C71 /* en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = en.json; sourceTree = "<group>"; };
+		F0CAC5E82C7BFD3400A65C71 /* ANewPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ANewPackage; path = "../../../../../../Downloads/Reality Composer Pro Tutorial/ANewPackage"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			files = (
 				F0A856432C651F08002AF000 /* RealityKitContent in Frameworks */,
 				F0CAC5E02C7B951900A65C71 /* StringJSON in Frameworks */,
+				F0CAC5EB2C7BFDC500A65C71 /* ANewPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +73,7 @@
 				F0A8563F2C651F08002AF000 /* VisionOSStarterProject */,
 				F0A856402C651F08002AF000 /* Packages */,
 				F0A8563E2C651F08002AF000 /* Products */,
+				F0CAC5E92C7BFDC500A65C71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +103,7 @@
 		F0A856402C651F08002AF000 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				F0CAC5E82C7BFD3400A65C71 /* ANewPackage */,
 				F0A856412C651F08002AF000 /* RealityKitContent */,
 			);
 			path = Packages;
@@ -117,6 +122,7 @@
 			children = (
 				F0CAC5BB2C7B931600A65C71 /* Spaces */,
 				F0CAC5BA2C7B930F00A65C71 /* Windows */,
+				F0CAC5E12C7BF3B200A65C71 /* Volumes */,
 				F0CAC5B92C7B930A00A65C71 /* Components */,
 			);
 			path = UI;
@@ -234,6 +240,20 @@
 			path = Strings;
 			sourceTree = "<group>";
 		};
+		F0CAC5E12C7BF3B200A65C71 /* Volumes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Volumes;
+			sourceTree = "<group>";
+		};
+		F0CAC5E92C7BFDC500A65C71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -253,6 +273,7 @@
 			packageProductDependencies = (
 				F0A856422C651F08002AF000 /* RealityKitContent */,
 				F0CAC5DF2C7B951900A65C71 /* StringJSON */,
+				F0CAC5EA2C7BFDC500A65C71 /* ANewPackage */,
 			);
 			productName = VisionOSStarterProject;
 			productReference = F0A8563D2C651F08002AF000 /* VisionOSStarterProject.app */;
@@ -541,6 +562,10 @@
 		F0CAC5DF2C7B951900A65C71 /* StringJSON */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = StringJSON;
+		};
+		F0CAC5EA2C7BFDC500A65C71 /* ANewPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ANewPackage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
