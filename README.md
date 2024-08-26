@@ -124,6 +124,7 @@ You may be interested in our other open source projects.
 ### Particles
 
 1. <a href="https://www.delasign.com/blog/how-to-make-a-fire-effect-using-particles-and-reality-composer-pro/?utm=swiftui-starter-project">How to make a fire effect using particles and Reality Composer Pro 🔗</a>
+2. <a href="https://www.delasign.com/blog/how-to-add-particles-to-a-window-volume-or-space-in-visionos/?utm=swiftui-starter-project">How to add particles to a window, volume or space in VisionOS 🔗</a>
 
 ## Reality Converter
 
