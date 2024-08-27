@@ -126,6 +126,14 @@ You may be interested in our other open source projects.
 1. <a href="https://www.delasign.com/blog/how-to-make-a-fire-effect-using-particles-and-reality-composer-pro/?utm=swiftui-starter-project">How to make a fire effect using particles and Reality Composer Pro 🔗</a>
 2. <a href="https://www.delasign.com/blog/how-to-add-particles-to-a-window-volume-or-space-in-visionos/?utm=swiftui-starter-project">How to add particles to a window, volume or space in VisionOS 🔗</a>
 
+### Materials
+
+1. <a href="https://www.delasign.com/blog/how-to-create-a-custom-pbr-material-in-reality-composer-pro/?utm=swiftui-starter-project">How to create a custom PBR material in Reality Composer Pro 🔗</a>
+2. <a href="https://www.delasign.com/blog/how-to-create-a-custom-shader-material-using-reality-composer-pro/?utm=swiftui-starter-project">How to create a custom shader material using Reality Composer Pro 🔗</a>
+3. <a href="https://www.delasign.com/blog/how-to-apply-a-custom-material-in-reality-composer-pro/?utm=swiftui-starter-project">How to apply a custom material in Reality Composer Pro 🔗</a>
+4. <a href="https://www.delasign.com/blog/how-to-promote-shader-parameters-in-reality-composer-pro/?utm=swiftui-starter-project">How to promote shader parameters in Reality Composer Pro 🔗</a>
+5. <a href="https://www.delasign.com/blog/how-to-set-the-parameter-of-the-promoted-input-in-xcode/?utm=swiftui-starter-project">How to set the parameter of the promoted input in XCode 🔗</a>
+
 ## Reality Converter
 
 1. <a href="https://www.delasign.com/blog/how-to-convert-an-animated-fbx-into-a-usdz/?utm=swiftui-starter-project">How to convert an animated FBX into a USDZ 🔗</a>
