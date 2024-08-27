@@ -110,7 +110,7 @@ You may be interested in our other open source projects.
 4. <a href="https://www.delasign.com/blog/how-to-animate-a-models-position-and-scale-in-realitykit/?utm=swiftui-starter-project">How to animate a models position and scale in RealityKit 🔗</a>
 
 
-## Reality Composer Pro / Reality Converter
+## Reality Composer Pro
 
 ### Basics
 
@@ -129,6 +129,7 @@ You may be interested in our other open source projects.
 ## Reality Converter
 
 1. <a href="https://www.delasign.com/blog/how-to-convert-an-animated-fbx-into-a-usdz/?utm=swiftui-starter-project">How to convert an animated FBX into a USDZ 🔗</a>
+2. <a href="https://www.delasign.com/blog/how-to-export-material-textures-using-reality-converter/?utm=swiftui-starter-project">How to export material textures using Reality Converter 🔗</a>
 
 
 ## Previews
