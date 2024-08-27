@@ -92,6 +92,99 @@
       }
     ]
   },
+  "7532FC17-EC36-4C33-97B2-24D48E2A4ADC" : {
+    "objectMetadataList" : [
+      [
+        "7532FC17-EC36-4C33-97B2-24D48E2A4ADC",
+        "Root",
+        "Drummer",
+        "geom",
+        "realistic"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7532FC17-EC36-4C33-97B2-24D48E2A4ADC",
+        "Root",
+        "Drummer",
+        "geom",
+        "realistic",
+        "geo",
+        "lod0",
+        "toy_drummer_realistic_lod0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7532FC17-EC36-4C33-97B2-24D48E2A4ADC",
+        "Root",
+        "Drummer"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7532FC17-EC36-4C33-97B2-24D48E2A4ADC",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7532FC17-EC36-4C33-97B2-24D48E2A4ADC",
+        "Root",
+        "Drummer",
+        "geom",
+        "realistic",
+        "geo"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7532FC17-EC36-4C33-97B2-24D48E2A4ADC",
+        "Root",
+        "Drummer",
+        "geom",
+        "realistic",
+        "materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7532FC17-EC36-4C33-97B2-24D48E2A4ADC",
+        "Root",
+        "Drummer",
+        "geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7532FC17-EC36-4C33-97B2-24D48E2A4ADC",
+        "Root",
+        "Drummer",
+        "geom",
+        "realistic",
+        "geo",
+        "lod0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "A2405CA7-050C-4168-A84E-3EE734F3A8EA" : {
     "objectMetadataList" : [
       [
