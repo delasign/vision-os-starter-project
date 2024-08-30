@@ -27,6 +27,8 @@
 		F0CAC5DD2C7B94E500A65C71 /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = F0CAC5DB2C7B94E500A65C71 /* en.json */; };
 		F0CAC5E02C7B951900A65C71 /* StringJSON in Frameworks */ = {isa = PBXBuildFile; productRef = F0CAC5DF2C7B951900A65C71 /* StringJSON */; };
 		F0CAC64C2C82227800A65C71 /* isSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC64B2C82227800A65C71 /* isSimulator.swift */; };
+		F0CAC6552C82247900A65C71 /* DataToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC6542C82247900A65C71 /* DataToJSON.swift */; };
+		F0CAC6572C82248B00A65C71 /* JSONToData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC6562C82248B00A65C71 /* JSONToData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		F0CAC5DA2C7B94E500A65C71 /* es.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = es.json; sourceTree = "<group>"; };
 		F0CAC5DB2C7B94E500A65C71 /* en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = en.json; sourceTree = "<group>"; };
 		F0CAC64B2C82227800A65C71 /* isSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSimulator.swift; sourceTree = "<group>"; };
+		F0CAC6542C82247900A65C71 /* DataToJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataToJSON.swift; sourceTree = "<group>"; };
+		F0CAC6562C82248B00A65C71 /* JSONToData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONToData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,7 @@
 		F0CAC5B82C7B92F700A65C71 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				F0CAC6532C82245B00A65C71 /* JSON */,
 				F0CAC64A2C82226D00A65C71 /* System */,
 				F0CAC5BE2C7B93D300A65C71 /* Fonts */,
 			);
@@ -253,6 +258,15 @@
 			path = System;
 			sourceTree = "<group>";
 		};
+		F0CAC6532C82245B00A65C71 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				F0CAC6542C82247900A65C71 /* DataToJSON.swift */,
+				F0CAC6562C82248B00A65C71 /* JSONToData.swift */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -334,12 +348,14 @@
 			files = (
 				F0CAC64C2C82227800A65C71 /* isSimulator.swift in Sources */,
 				F0A856472C651F08002AF000 /* ContentView.swift in Sources */,
+				F0CAC6572C82248B00A65C71 /* JSONToData.swift in Sources */,
 				F0CAC5C72C7B94AF00A65C71 /* LanguageCoordinator+CurrentLanguage.swift in Sources */,
 				F0CAC5C82C7B94AF00A65C71 /* LanguageCoordinator.swift in Sources */,
 				F0CAC5C92C7B94AF00A65C71 /* LanguageCoordinator+Generate.swift in Sources */,
 				F0CAC5D22C7B94C900A65C71 /* DebuggingIdentifiers.swift in Sources */,
 				F0CAC5D32C7B94C900A65C71 /* Constants.swift in Sources */,
 				F0A856452C651F08002AF000 /* App.swift in Sources */,
+				F0CAC6552C82247900A65C71 /* DataToJSON.swift in Sources */,
 				F0CAC5CD2C7B94BA00A65C71 /* Fonts.swift in Sources */,
 				F0CAC5D92C7B94DF00A65C71 /* Language.swift in Sources */,
 				F0CAC5CE2C7B94BA00A65C71 /* Styleguide.swift in Sources */,
