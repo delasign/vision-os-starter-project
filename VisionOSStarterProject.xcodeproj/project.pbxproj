@@ -29,6 +29,10 @@
 		F0CAC64C2C82227800A65C71 /* isSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC64B2C82227800A65C71 /* isSimulator.swift */; };
 		F0CAC6552C82247900A65C71 /* DataToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC6542C82247900A65C71 /* DataToJSON.swift */; };
 		F0CAC6572C82248B00A65C71 /* JSONToData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC6562C82248B00A65C71 /* JSONToData.swift */; };
+		F0CAC6682C82256100A65C71 /* AppReleaseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC6672C82256100A65C71 /* AppReleaseInfo.swift */; };
+		F0CAC66A2C82256A00A65C71 /* openURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC6692C82256A00A65C71 /* openURL.swift */; };
+		F0CAC66C2C82257100A65C71 /* openSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC66B2C82257100A65C71 /* openSettings.swift */; };
+		F0CAC6722C82261100A65C71 /* generateRandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC6712C82261100A65C71 /* generateRandomColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +59,10 @@
 		F0CAC64B2C82227800A65C71 /* isSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSimulator.swift; sourceTree = "<group>"; };
 		F0CAC6542C82247900A65C71 /* DataToJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataToJSON.swift; sourceTree = "<group>"; };
 		F0CAC6562C82248B00A65C71 /* JSONToData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONToData.swift; sourceTree = "<group>"; };
+		F0CAC6672C82256100A65C71 /* AppReleaseInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReleaseInfo.swift; sourceTree = "<group>"; };
+		F0CAC6692C82256A00A65C71 /* openURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openURL.swift; sourceTree = "<group>"; };
+		F0CAC66B2C82257100A65C71 /* openSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openSettings.swift; sourceTree = "<group>"; };
+		F0CAC6712C82261100A65C71 /* generateRandomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateRandomColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +158,9 @@
 		F0CAC5B82C7B92F700A65C71 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				F0CAC6702C82260B00A65C71 /* Color */,
+				F0CAC6662C82255A00A65C71 /* Bundle */,
+				F0CAC6652C82255500A65C71 /* UIApplication */,
 				F0CAC6532C82245B00A65C71 /* JSON */,
 				F0CAC64A2C82226D00A65C71 /* System */,
 				F0CAC5BE2C7B93D300A65C71 /* Fonts */,
@@ -267,6 +278,31 @@
 			path = JSON;
 			sourceTree = "<group>";
 		};
+		F0CAC6652C82255500A65C71 /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				F0CAC6692C82256A00A65C71 /* openURL.swift */,
+				F0CAC66B2C82257100A65C71 /* openSettings.swift */,
+			);
+			path = UIApplication;
+			sourceTree = "<group>";
+		};
+		F0CAC6662C82255A00A65C71 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				F0CAC6672C82256100A65C71 /* AppReleaseInfo.swift */,
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
+		F0CAC6702C82260B00A65C71 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				F0CAC6712C82261100A65C71 /* generateRandomColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -353,14 +389,18 @@
 				F0CAC5C82C7B94AF00A65C71 /* LanguageCoordinator.swift in Sources */,
 				F0CAC5C92C7B94AF00A65C71 /* LanguageCoordinator+Generate.swift in Sources */,
 				F0CAC5D22C7B94C900A65C71 /* DebuggingIdentifiers.swift in Sources */,
+				F0CAC6722C82261100A65C71 /* generateRandomColor.swift in Sources */,
 				F0CAC5D32C7B94C900A65C71 /* Constants.swift in Sources */,
+				F0CAC66C2C82257100A65C71 /* openSettings.swift in Sources */,
 				F0A856452C651F08002AF000 /* App.swift in Sources */,
+				F0CAC66A2C82256A00A65C71 /* openURL.swift in Sources */,
 				F0CAC6552C82247900A65C71 /* DataToJSON.swift in Sources */,
 				F0CAC5CD2C7B94BA00A65C71 /* Fonts.swift in Sources */,
 				F0CAC5D92C7B94DF00A65C71 /* Language.swift in Sources */,
 				F0CAC5CE2C7B94BA00A65C71 /* Styleguide.swift in Sources */,
 				F0CAC5CF2C7B94BA00A65C71 /* Colors.swift in Sources */,
 				F0CAC5C32C7B947600A65C71 /* PrintSystemFonts.swift in Sources */,
+				F0CAC6682C82256100A65C71 /* AppReleaseInfo.swift in Sources */,
 				F0CAC5D82C7B94DF00A65C71 /* UIContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
