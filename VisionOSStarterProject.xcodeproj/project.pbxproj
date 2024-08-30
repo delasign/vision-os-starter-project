@@ -26,6 +26,7 @@
 		F0CAC5DC2C7B94E500A65C71 /* es.json in Resources */ = {isa = PBXBuildFile; fileRef = F0CAC5DA2C7B94E500A65C71 /* es.json */; };
 		F0CAC5DD2C7B94E500A65C71 /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = F0CAC5DB2C7B94E500A65C71 /* en.json */; };
 		F0CAC5E02C7B951900A65C71 /* StringJSON in Frameworks */ = {isa = PBXBuildFile; productRef = F0CAC5DF2C7B951900A65C71 /* StringJSON */; };
+		F0CAC64C2C82227800A65C71 /* isSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC64B2C82227800A65C71 /* isSimulator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		F0CAC5D72C7B94DF00A65C71 /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		F0CAC5DA2C7B94E500A65C71 /* es.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = es.json; sourceTree = "<group>"; };
 		F0CAC5DB2C7B94E500A65C71 /* en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = en.json; sourceTree = "<group>"; };
+		F0CAC64B2C82227800A65C71 /* isSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSimulator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 		F0CAC5B82C7B92F700A65C71 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				F0CAC64A2C82226D00A65C71 /* System */,
 				F0CAC5BE2C7B93D300A65C71 /* Fonts */,
 			);
 			path = Utils;
@@ -242,6 +245,14 @@
 			path = Volumes;
 			sourceTree = "<group>";
 		};
+		F0CAC64A2C82226D00A65C71 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				F0CAC64B2C82227800A65C71 /* isSimulator.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -321,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0CAC64C2C82227800A65C71 /* isSimulator.swift in Sources */,
 				F0A856472C651F08002AF000 /* ContentView.swift in Sources */,
 				F0CAC5C72C7B94AF00A65C71 /* LanguageCoordinator+CurrentLanguage.swift in Sources */,
 				F0CAC5C82C7B94AF00A65C71 /* LanguageCoordinator.swift in Sources */,
