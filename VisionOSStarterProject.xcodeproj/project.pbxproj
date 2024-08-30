@@ -33,6 +33,7 @@
 		F0CAC66A2C82256A00A65C71 /* openURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC6692C82256A00A65C71 /* openURL.swift */; };
 		F0CAC66C2C82257100A65C71 /* openSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC66B2C82257100A65C71 /* openSettings.swift */; };
 		F0CAC6722C82261100A65C71 /* generateRandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC6712C82261100A65C71 /* generateRandomColor.swift */; };
+		F0CAC6752C82317F00A65C71 /* isXCodePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CAC6742C82317F00A65C71 /* isXCodePreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		F0CAC6692C82256A00A65C71 /* openURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openURL.swift; sourceTree = "<group>"; };
 		F0CAC66B2C82257100A65C71 /* openSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openSettings.swift; sourceTree = "<group>"; };
 		F0CAC6712C82261100A65C71 /* generateRandomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateRandomColor.swift; sourceTree = "<group>"; };
+		F0CAC6742C82317F00A65C71 /* isXCodePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isXCodePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +266,7 @@
 		F0CAC64A2C82226D00A65C71 /* System */ = {
 			isa = PBXGroup;
 			children = (
+				F0CAC6742C82317F00A65C71 /* isXCodePreview.swift */,
 				F0CAC64B2C82227800A65C71 /* isSimulator.swift */,
 			);
 			path = System;
@@ -397,6 +400,7 @@
 				F0CAC6552C82247900A65C71 /* DataToJSON.swift in Sources */,
 				F0CAC5CD2C7B94BA00A65C71 /* Fonts.swift in Sources */,
 				F0CAC5D92C7B94DF00A65C71 /* Language.swift in Sources */,
+				F0CAC6752C82317F00A65C71 /* isXCodePreview.swift in Sources */,
 				F0CAC5CE2C7B94BA00A65C71 /* Styleguide.swift in Sources */,
 				F0CAC5CF2C7B94BA00A65C71 /* Colors.swift in Sources */,
 				F0CAC5C32C7B947600A65C71 /* PrintSystemFonts.swift in Sources */,
